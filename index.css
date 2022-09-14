@@ -3,7 +3,12 @@
 }
 
 .eat {
-    background: orange;
+    background: rgba(243, 167, 3, 0.867);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texts {
+    color:rgba(243, 167, 3, 0.867);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
