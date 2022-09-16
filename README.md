@@ -45,12 +45,12 @@
     <div class="container2">
         <div class="header2">AS FEATURED IN</div>
 
-        <div class="links">
+        <p class="links">
             <span id="tc"> TC</span> TechCrunch
             BUSINESS INSIDER
             <span id="newyork">THE NEW YORK TIMES</span>
             <span id="forbes">FORBES</span>
-        </div>
+        </p>
 
         <section id="works">
             <h4 class="a1">HOW IT WORKS</h4>
@@ -80,6 +80,8 @@
         <section id="Meals">
             <h3 class="mealls">MEALS</h3>
             <h2>IREMIFOOD AI CHOOSES FROM 5,000+ RECIPES</h2>
+
+            🔥  🍽️  
 
 
         </section>
