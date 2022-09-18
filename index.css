@@ -26,6 +26,10 @@
     width: 550px;
 }
 
+.coook {
+    height: 180px;
+}
+
 .header {
     background: #fae5d3;
     margin: 0;
@@ -68,12 +72,42 @@
 
 .usa, .forbe, .tc, .new, .in {
     height: 40px;
-    width: 110px;
-    margin-inline: 60px;
+    width: 100px;
+    margin-inline: 40px;
     padding-top: 9px;
-    font-weight: bolder;
     /* text-align: end;
     margin: 10px; */
+}
+
+
+.any {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    margin-left: 55px;
+}
+
+.reci {
+    color: #e67e22;
+}
+
+
+
+.uu {
+    list-style: none;
+    font-weight: lighter;
+    
+}
+
+.lis {
+    padding: 9px;
+    align-items: flex-start;
+}
+
+.uu li::before {
+    content: '✔️';
+    color: #e67e22;
+    padding: 15px;
+    font-weight: lighter;
 }
 
 .a1 {
@@ -103,29 +137,30 @@
 
 .meaal {
     height: 200px;
+    width: 390px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
 }
 
 
-
+/* 
 .veg {
     background-color: #0fd40f;
     border-radius: 45%;
-    width: fit-content;
+    width: 120px;
     padding: 10px;
     padding-top: 10px;
     margin: 9px;
     font-size: 10px;
     font-weight: bold;
-}
+} */
 
 .vegi, .pal {
     border-radius: 45%;
     width: fit-content;
-    padding: 10px;
-    padding-top: 10px;
-    margin: 9px;
+    padding: 5px;
+    padding-top: 8px;
+    margin: 8px;
     font-size: 10px;
     font-weight: bold;
 }
@@ -155,19 +190,61 @@
 }
 
 .pri {
-    width: fit-content;
+    width: 390px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
-    margin-left: 70px;
+    margin-left: 10px;
+    margin-top: 35px;
     background: #bab4ae;
+    height: fit-content;
 }
 
 .ire {
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     color: #3e3434eb
+}
+
+
+.aut {
+    background: #fae5d3
+
+}
+
+.zii {
+    width: 100%;
+    align-items: flex-end;
+}
+
+.ff {
+    width: 700px;
+    flex-wrap: nowrap;
+}
+
+.bbb {
+    border-radius: 50%;
+}
+
+.iii {
+    text-align: justify;
+    width: 250px;
+}
+
+.iii img {
+    display: block;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.ggg {
+    box-sizing: content-box;
+}
+
+.ttes {
+    padding-bottom: 10px;
+    color: #e67e22;
 }
 
 .phoney {
