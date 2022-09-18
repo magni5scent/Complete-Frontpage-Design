@@ -90,11 +90,19 @@
     color: #e67e22;
 }
 
+.seven, .two {
+    font-weight: bolder;
+}
+
+.liss {
+    font-weight: bold;
+}
+
 
 
 .uu {
     list-style: none;
-    font-weight: lighter;
+    font-weight: bold;
     
 }
 
@@ -108,6 +116,44 @@
     color: #e67e22;
     padding: 15px;
     font-weight: lighter;
+}
+
+.vv {
+    list-style: none;
+    font-weight: lighter;
+    width: 350px;
+    margin-right: 40px;
+}
+
+.maa {
+    margin: 20px;
+}
+
+
+.per {
+    color: hsl(209, 28%, 39%);
+}
+
+.sta {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.vv li::before {
+    content: '✔️';
+    color: #e67e22;
+    padding: 15px;
+    font-weight: lighter;
+}
+
+.butt {
+    border-radius: 3%;
+    background: #e67e22;
+    font-weight: bold;
+    color: white;
+    box-shadow: none;
+    margin-right: 15px;
+    border: none;
 }
 
 .a1 {
@@ -143,17 +189,7 @@
 }
 
 
-/* 
-.veg {
-    background-color: #0fd40f;
-    border-radius: 45%;
-    width: 120px;
-    padding: 10px;
-    padding-top: 10px;
-    margin: 9px;
-    font-size: 10px;
-    font-weight: bold;
-} */
+
 
 .vegi, .pal {
     border-radius: 45%;
@@ -225,11 +261,49 @@
 
 .bbb {
     border-radius: 50%;
+    width: 40%;
 }
 
 .iii {
     text-align: justify;
-    width: 250px;
+    width: 280px;
+    display: inline-block;
+    padding-inline: 15px;
+}
+
+.kkk {
+    color: #e67e22;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.tap {
+    border-radius: 5%;
+    background: #b79b9b;
+    margin: 9px;
+    padding: 5px;
+    
+}
+
+
+
+.cam {
+    border-radius: 5%;
+    background: #ffff;
+    border: 2px solid #fae5d3;
+    margin: 3px;
+    padding: 18px;
+}
+
+.money {
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.doll {
+    color: hsl(209, 61%, 16%);
+    font-size: 1.5rem;
 }
 
 .iii img {
