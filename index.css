@@ -127,6 +127,7 @@
 
 .maa {
     margin: 20px;
+    position: relative;
 }
 
 
@@ -147,7 +148,7 @@
 }
 
 .butt {
-    border-radius: 3%;
+    border-radius: 20px;
     background: #e67e22;
     font-weight: bold;
     color: white;
@@ -323,6 +324,116 @@
 
 .phoney {
     height: 270px;
+}
+
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    left: 282px;
+    width: 150px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(deg);
+    align-items: center;
+    overflow: hidden;
+    color: hsl(209, 61%, 16%);
+}
+
+.ribbon::before {
+    content: "BEST VALUE";
+    position: absolute;
+    top: 30px;
+    bottom: 150px;
+    width: 320px;
+    height: 24px;
+    margin-left: 15px;
+    background: #ffff00;
+    transform: rotate(44deg) translateY(10px);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #b79b9b;
+    letter-spacing: .1em;
+
+}
+
+.aye {
+    margin-left: 150px;
+    
+}
+
+.hhh {
+    max-width: 100%;
+    display: inline-flex;
+}
+
+
+.ooo {
+    background: #eb984e;
+    border-radius: 20px;
+    max-width: 100%;
+    color: #2e1907;
+}
+
+.infinit {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #e67e22;
+    box-shadow: 0 5px 6px #e67e22;
+    border-radius: 50%;
+    background: #fdf2e9;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.mmm {
+    font-size: 15px;
+    color: hsl(209, 28%, 39%);
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+
+.comb {
+    display: inline-flex;
+}
+
+.bot {
+    padding: 9px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: start;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.bot1 {
+    background-color: #464040;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+}
+
+.bot1:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.droop {
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    margin: 15px;
+    text-align: start;
 }
 
 .maxx {
