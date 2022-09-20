@@ -2,10 +2,11 @@
 
 #brand {
     letter-spacing: 3px;
+    
 }
 
 .yo {
-    background: #fae5d3;
+    background: #fae5d3;    
 }
 
 
@@ -307,6 +308,14 @@
     font-size: 1.5rem;
 }
 
+
+.tah {
+    color: hsl(209, 28%, 39%);
+    font-size: small;
+}
+
+
+
 .iii img {
     display: block;
     flex-wrap: wrap;
@@ -368,6 +377,45 @@
     display: inline-flex;
 }
 
+.ending {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 5;
+}
+
+.logo {
+    margin-left: 140px;
+    padding-top: 5px;
+}
+
+
+.bi {
+    font-size: 35px;
+    padding: 10px;
+    color: hsl(209, 28%, 39%);
+}
+
+.icon {
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+    color: #000000;
+}
+
+
+.copy {
+    font-size: 9px;
+    color: hsl(209, 28%, 39%);
+}
+
+
+.copy {
+    padding-top: 150px;
+}
+
+#iremi {
+    font-size: 2.5em;
+}
 
 .ooo {
     background: #eb984e;
@@ -425,6 +473,23 @@
 .bot1:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+
+
+.gge {
+    max-width: 55%;
+    box-sizing: content-box;
+}
+
+.chop {
+    max-width: 350px;
+    height: 60.5vh;
+    float: right;
+}
+
+.chop img {
+    max-width: max-content;
 }
 
 .droop {
