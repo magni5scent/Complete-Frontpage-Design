@@ -17,19 +17,19 @@
 <body>
         <!-- nav-bar -->
     <div class="header">
-        <nav class="navbar  navbar-expand-lg d-flex fixed-top yo ">
+        <nav class="navbar navbar-expand-lg text-light d-sm-w-10 fixed-top yo d-sm-block ">
             <div class="container">
                 <a href="#" class="fonta navbar-brand text-dark"> <h2 id="brand ">IREMIF<span class="text-danger ko">Ꝏ</span>D</h2></a>
 
                 <button 
-                class="navbar-toggler "
+                class="navbar-toggler text-light sss"
                 type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
             >
                 <span class="navbar-toggler-icon "></span>     
             </button>
 
             
-            <div class="collapse navbar-collapse mx-5" id="navmenu">
+            <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
                         <a href="#work" class="nav-link text-dark fw-bold active">How It Works
@@ -57,7 +57,7 @@
             </div>
                
             </div> 
-
+        </nav>
         </nav>
 
           <!-- Showcase -->
@@ -103,7 +103,7 @@
         </div>
     </section>
 
-        <!--Buttons-->
+
 
     <section class="text-light p-2 pt-lg-5 text-center  text-sm-center py-2">
         <div class="container">
@@ -129,69 +129,90 @@
                         <span class="texts"> 250,000+</span> meals delivered last year!
                      </p>
                 </div>
+                <div class="shift">
+                    <img class= "small img-fluid d-lg-none w-50 d-sm-block" src="hero.png" alt="">
+                </div>
         </div>
     </section>
 
-    <section class=" text-light p-2 pt-lg-5 p-lg-0 text-center  text-sm-center py-2">
+
+    <section class="pt-4 text-center text-sm-center d-sm-flex fw-bold p-lg-2 my-4">
         <div class="container">
-<!-- 
-            <div class="text-dark py-2 d-lg-none">
-                <span class="texts">250,000+</span> meals delivered last year!
-            </div> -->
-            <div class="shift">
-                <img class= "small img-fluid d-lg-none w-50 d-sm-block" src="hero.png" alt="">
-            </div>
-        </div>
-    </section>
-       </div>
-
-    <section class="pt-4 text-center text-sm-center fw-bold p-lg-2">
-        <container>
             <div class="featured">AS FEATURED IN</div>
 
-            <div class="pt-4 text-align-center justify-content-between">
-                <p class="links d-inline  mx-5 g-3 p-lg-3">
-                    <img class="tc" src="tc.png" alt="tc-logo">
-                    <img class="in" src="insider.png" alt="business">
-                    <img class="new" src="new.png" alt="new-york-times">
-                    <img class="forbe" src="forbes.png" alt="forbes-logo">
-                    <img class="usa" src="usa.png" alt="usa">
-                </p>
+                <div class="row sax d-none d-lg-flex pt-4">
+                   <div class="col-2"> <img class="tc" src="tc.png" alt="tc-logo"></div>
+                    <div class="col-2"><img class="in" src="insider.png" alt="business"></div>
+                    <div class="col-2"><img class="new" src="new.png" alt="new-york-times"></div>
+                    <div class="col-2"><img class="forbe" src="forbes.png" alt="forbes-logo"></div>
+                    <div class="col-2"><img class="usa" src="usa.png" alt="usa"></div>
+            
+        </div>
+
+    
+            <div class="container">
+                        <div class="row  d-lg-none">
+                            <div class="col"><img class="inn" src="tc.png" alt="tc-logo"></div> 
+                            <div class="col"><img class="inn" src="insider.png" alt="business"></div> 
+                            <div class="col"><img class="inn" src="new.png" alt="new-york-times"></div> 
+                            <div class="col"><img class="inn" src="forbes.png" alt="forbes-logo"></div> 
+                            <div class="col"><img class="inn" src="usa.png" alt="usa"></div>
             </div>
-        </container>
+    </section> 
 
-    <section id="work" class=" text-lg-start my-5 px-5">
+    <section id="work" class=" text-lg-start">
            
-                <h4 class="a1">HOW IT WORKS</h4>
-                <h1 id="daily">YOUR DAILY DOSE OF HEALTH IN 3 SIMPLE STEPS</h1>
+            <container class="d-lg-none">
+                <h4 class="a1 mx-4 py-4">HOW IT WORKS</h4>
+                <h1 class="daily d-lg-block d-none mx-4">YOUR DAILY DOSE OF HEALTH IN 3 SIMPLE STEPS</h1>
+                <h3 class="daily px-3 d-lg-none">YOUR DAILY DOSE OF HEALTH IN 3 SIMPLE STEPS</h3>
 
-            <div class="row align-center justify-content-between maxx">
+                    <div class="col-md pt-5 text-center d-lg-none">
+                        <img src="phone1.png" class="phoney img-fluid" alt="">
+                    </div>
+
+                   <div class="text-start  mx-3">
+                    <span class="b1">01</span>
+                    <h3 class="tell">Tell Us What You Like (And What Not)</h3>
+                    <p class="ire d-flex flex-wrap">Never again waste time thinking about what to eat! IREMIFOOD AI will create a 100% personalised weekly mean plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow! </p>
+                   </div>
+            </container>
+
+            <div class="row align-center d-none d-lg-flex justify-content-between m-2 maxx">
                     <div class="col-md p-5">
-                      <span id="b1">01</span>
+                      <span class="b1">01</span>
                         <h3 class="tell">Tell Us What You Like (And What Not)</h3>
                         <p class="ire d-flex flex-wrap">Never again waste time thinking about what to eat! IREMIFOOD AI will create a 100% personalised weekly mean plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow! </p>
                     </div>
                     <div class="col-md pt-5">
-                        <img src="phone1.png" class="phoney img-fluid" alt="">
+                        <img src="phone1.png" class="phoney ms-auto d-lg-flex img-fluid" alt="">
                    </div>
                
             </div>
             
     </section>
+     
+
     
 
+    <section class="works text-lg-start">
+        <div class="col-md pt-5 d-lg-none text-center">
+            <img src="phone2.png" class="phoney img-fluid" alt="">
+       </div>
 
-
-
-    <section class="works text-lg-start my-5 px-5">
-        <div class="row align-center d-flex flex-row-reverse justify-content-between maxx">
+       <div class="text-start d-lg-none mx-3">
+        <span class="b1">02</span>
+          <h3 class="tell">Approve Your Weekly Meal Plan:</h3>
+          <p class="ire">Once per week, approve the mean plan generated for you by IREMIFOOD AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
+        </div>
+        <div class="row align-center d-flex d-none d-lg-flex mx-5 flex-row-reverse justify-content-between maxx">
             <div class="col-md p-5">
-              <span id="b1">02</span>
+              <span class="b1 text-start">02</span>
                 <h3 class="tell">Approve Your Weekly Meal Plan:</h3>
                 <p class="ire">Once per week, approve the mean plan generated for you by IREMIFOOD AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
             </div>
             <div class="col-md pt-5">
-                <img src="phone2.png" class="phoney img-fluid" alt="">
+                <img src="phone2.png" class="phoney d-lg-flex img-fluid" alt="">
            </div>
        
         </div>
@@ -199,15 +220,25 @@
     </section>   
     
     
-    <section class="works text-lg-start my-5 px-5">
-        <div class="row align-center justify-content-between maxx">
-            <div class="col-md p-5">
-              <span id="b1">03</span>
+    <section class="works text-lg-start">
+        <div class="col-md pt-5 d-lg-none text-center">
+            <img src="phone3.png" class="phoney img-fluid" alt="phone">
+        </div>
+
+        <div class="text-start d-lg-none mx-3">        
+            <span class="b1">03</span>
+              <h3 class="tell">Recieve Meals At Convienient Time</h3>
+              <p class="ire">Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!</p>
+          </div>
+
+        <div class="row align-center justify-content-between d-none d-lg-flex maxx">
+            <div class="col-md mx-2 p-5">        
+              <span class="b1 ">03</span>
                 <h3 class="tell">Recieve Meals At Convienient Time</h3>
                 <p class="ire">Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!</p>
             </div>
             <div class="col-md pt-5">
-                <img src="phone3.png" class="phoney img-fluid" alt="">
+                <img src="phone3.png" class="phoney d-lg-flex mx-auto img-fluid" alt="">
            </div>
        
         </div>
@@ -215,100 +246,115 @@
     </section>  
 
 
-    <section id="meals" class=" text-lg-start my-5 px-5">
+    <section id="meals" class="text-lg-start">
            
+       <div class="container">
         <h4 class="a1 text-center">MEALS</h4>
-        <h1 id="daily" class="text-center">IREMIFOOD AI CHOOSES FROM 5,000+ RECIPES</h1>
+        <h1 id="daily" class="text-center py-5">IREMIFOOD AI CHOOSES FROM 5,000+ RECIPES</h1>
 
-           <div class="d-flex flex-row">
-            <p class="meeal d-inline">
-                <div class="border-2 pri">
-                    <img class="meaal img-fluid" src="meal1.jpg" alt="meal">
-                    <div class="jap">
-                        <p class="veg">VEGETARIAN</p>
-                        <p>Japanese Gyaozas</p>
-                        <p class="cal"> 🔥 650 calories</p>
-                        <p class="cal">🍽️ Nutriscore &reg; 74</p>
-                        <p class="cal">⭐ 4.9 rating(537)</p>
-                    </div>
-                </img>
-                </div>
-                <p class="meeal d-inline align-center">
-                    <div class="border-2 pri">
-                        <img class="meaal img-fluid" src="meal2.jpg" alt="meal22">
-                        <div class="jap">
-                           <div class="d-flex"> <p class="vegi">VEGEN</p><p class="pal">PALEO</p></div>
-                            <p>Avocado Salad</p>
-                            <p class="cal"> 🔥 400 calories</p>
-                            <p class="cal">🍽️ Nutriscore &reg; 92</p>
-                            <p class="cal">⭐ 4.8 rating(441)</p>
+            <div class="cont">
+                <div class="row">
+                    
+                        <div class="col-2 bg-light mx-3 cvv">
+                            <img class="meaal img-fluid" src="meal1.jpg" alt="meal">
+                            <div class="jap">
+                                <p class="veg">VEGETARIAN</p>
+                                <p>Japanese Gyaozas</p>
+                                <p class="cal"> 🔥 650 calories</p>
+                                <p class="cal">🍽️ Nutriscore &reg; 74</p>
+                                <p class="cal">⭐ 4.9 rating(537)</p>
+                            </div>
+                            </img>
                         </div>
-                    </img>
+                       
+                        
+                    
+                        <div class="col-2 cvv bg-light">
+                            <img class="meaal img-fluid" src="meal2.jpg" alt="meal22">
+                            <div class="jap">
+                                <div class="d-flex"> 
+                                    <p class="vegi">VEGEN</p> <p class="pal">PALEO</p>
+                                </div>
+                                <p>Avocado Salad</p>
+                                <p class="cal"> 🔥 400 calories</p>
+                                <p class="cal">🍽️ Nutriscore &reg; 92</p>
+                                <p class="cal">⭐ 4.8 rating(441)</p>
+                            </div>
+                            </img>
+                        </div>
+                        <div class="col">
+                            <h5 class="any">Works With Any Diet:</h5>
+                            <ul class="uu text-start">
+                                <li class="lis">Vegetarian</li>
+                                <li class="lis">Vegan</li>
+                                <li class="lis">Pescaterian</li>
+                                <li class="lis">Gluten-free</li>
+                                <li class="lis">Keto</li>
+                                <li class="lis">Paleo</li>
+                                <li class="lis">Low FODMAP</li>
+                                <li class="lis">Kid friendly</li>
+                            </ul>
+                        </div>
+                </div>
+                   <div id="meals" class="text-center">
+                    <a href="#meals" class="fw-bold rrr">See more recipes ---></a>
                     </div>
-                    <div class="p-5">
-                        <h4 class="any">Works With Any Diet:</h4>
-                        <ul class="uu my-5">
-                            <li class="lis">Vegetarian</li>
-                            <li class="lis">Vegan</li>
-                            <li class="lis">Pescaterian</li>
-                            <li class="lis">Gluten-free</li>
-                            <li class="lis">Keto</li>
-                            <li class="lis">Paleo</li>
-                            <li class="lis">Low FODMAP</li>
-                            <li class="lis">Kid friendly</li>
-                        </ul>
-                    </div>
-            </p>
-           </div>
-           <div id="meals" class="text-center">
-            <a href="#meals" class="fw-bold">See more recipes ---></a>
-           </div>
+            </div>
+       </div>
     </section>
 
 
-    <section id="testimonial" class="aut text-light p-5 pt-lg-5 p-lg-0 text-center text-sm-start">
+    <section id="testimonial" class="aut text-light text-start text-sm-start">
         <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
                     <h5 class="ttes">Testimonials</h5>
                     <h2 class="ff text-dark">A TASTE THAT KEEPS YOU COMING BACK</h2>
-                    <div class="iii text-dark">
-                        <img class="bbb" src="test1.jpg" alt="test">
-                        <p>Inexpensive, healthy and great-tasting meals, without even having to order manually!It's more than fantastic. It feels truly magical.
-                            — Hannah Smith    
-                        </p>
-                        <img class="bbb" src="test2.jpg" alt="test">
-                        <p>The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!
-                            — Ben Hadley</p>
 
+
+                <div class="d-flex flex-row bg-danger">
+                    <div class="row row-cols-2 bag bg-primary">
+                        <div class="col iii text-dark">
+                            <img class="bbb" src="test1.jpg" alt="test">
+                            <p class="lll">Inexpensive, healthy and great-tasting meals, without even having to order manually!It's more than fantastic. It feels truly magical.
+                                — Hannah Smith    
+                            </p>
+                        </div>
+                    
+                        <div class="col iii text-dark">
+                            <img class="bbb" src="test2.jpg" alt="test">
+                            <p class="lll">The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!
+                                — Ben Hadley</p>
+                        </div>
+                        <div class="col iii text-dark">
+                            <img class="bbb" src="test3.jpg" alt="test">
+                            <p  class="lll">Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!
+                                — Steve Miller</p>
+                        </div>
+                        <div class="col iii text-dark">
+                            <img class="bbb" src="test4.jpg" alt="test">
+                            <p class="lll">I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.
+                                —Dave Bryson </p>
+                        </div>
                     </div>
-                    <div class="iii text-dark">
-                        <img class="bbb" src="test3.jpg" alt="test">
-                        <p>Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!
-                            — Steve Miller</p>
-                        <img class="bbb" src="test4.jpg" alt="test">
-                        <p>I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.
-                            —Dave Bryson </p>
+                        <div class="row row-cols-3 zii">
+                            <img class="coook col img-fluid" src="cook1.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook5.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook2.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook4.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook3.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook10.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook7.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook8.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook6.jpg"  alt="">
+                            <img class="coook col img-fluid" src="cook9.jpg"  alt="">
+                        </div>
                     </div>
                 </div>
-                    <div class="d-flex flex-column d-lg-inline-block zii">
-                        <img class="coook col-md m-2" src="cook1.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook5.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook2.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook4.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook3.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook10.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook7.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook8.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook6.jpg" class="phoney img-fluid" alt="">
-                        <img class="coook col-md m-2" src="cook9.jpg" class="phoney img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
+               
+            
         </div>
     </section>
 
-    <section id="pricing">
+    <!--<section id="pricing">
         <div class="container">
             <h5 class="kkk flex-start d-flex">Pricing</h5>
             <h1 class="lao text-dark fw-bold flex-start d-flex">Eating Well Without Breaking The Bank</h1>
@@ -488,7 +534,7 @@
                            
                     </div>       
         </div>
-    </section>
+    </section> -->
     
 </body>
 </html>

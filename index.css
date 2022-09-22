@@ -7,7 +7,16 @@
 
 .yo {
     background: #fae5d3;    
+    max-width: 100%;
 }
+
+.sss {
+    color: #e67e22;
+    width: 30%;
+    margin-right: 15px;
+}
+
+
 
 
 .eat {
@@ -28,7 +37,16 @@
 }
 
 .coook {
-    height: 180px;
+    height: 100px;
+    width: 40%;
+}
+
+.lll {
+    width: 80%;
+}
+
+.bag{
+    width: 150%;
 }
 
 .header {
@@ -71,20 +89,31 @@
     width: 220px;
 }
 
+.rrr {
+    max-width: 100%;
+}
+
 .usa, .forbe, .tc, .new, .in {
-    height: 40px;
-    width: 100px;
-    margin-inline: 40px;
-    padding-top: 9px;
-    /* text-align: end;
-    margin: 10px; */
+    height: 25px;
+    max-width: 100px;
+}
+
+.sax {
+    max-width: 100%;
+
+}
+
+.inn {
+    height: 10px;
+    width: 100%;
+    padding-top: 4px;
 }
 
 
 .any {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bolder;
-    margin-left: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .reci {
@@ -96,14 +125,17 @@
 }
 
 .liss {
-    font-weight: bold;
+    font-weight: lighter;
+    
 }
 
 
 
 .uu {
     list-style: none;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 15px;
+    align-items: flex-start;
     
 }
 
@@ -160,22 +192,22 @@
 
 .a1 {
     color:#e67e22;
-    font-size: small;
+    font-size: 15px;
     padding: 9px;
     font-weight: bold;
 }
 
-#daily {
+.daily {
     font-weight: bold;
     margin-bottom: 90px;
 }
 
 
 
-#b1 {
+.b1 {
     font-size: 5em;
     color: #b79b9b;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .tell {
@@ -185,9 +217,13 @@
 
 .meaal {
     height: 200px;
-    width: 390px;
+    width: 100%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
+}
+
+.rrr {
+    color: #e67e22;
 }
 
 
@@ -198,13 +234,21 @@
     width: fit-content;
     padding: 5px;
     padding-top: 8px;
-    margin: 8px;
+    margin: 5px;
     font-size: 10px;
     font-weight: bold;
 }
 
 .vegi {
     background-color: rgb(95, 229, 95);
+}
+
+
+.veg {
+    font-size: 12px;
+    border-radius: 10%;
+    background: #0ac811;
+    width: fit-content;
 }
 
 .pal {
@@ -227,16 +271,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.pri {
-    width: 390px;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    margin-left: 10px;
-    margin-top: 35px;
+.cvv {
     background: #bab4ae;
-    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 .ire {
@@ -251,26 +289,15 @@
 
 }
 
-.zii {
-    width: 100%;
-    align-items: flex-end;
-}
 
-.ff {
-    width: 700px;
-    flex-wrap: nowrap;
-}
 
 .bbb {
-    border-radius: 50%;
-    width: 40%;
+    border-radius: 50%
 }
 
 .iii {
-    text-align: justify;
-    width: 280px;
-    display: inline-block;
-    padding-inline: 15px;
+    word-wrap: wrap;
+    max-width: 40%;
 }
 
 .kkk {
@@ -334,6 +361,7 @@
 .phoney {
     height: 270px;
 }
+
 
 
 .ribbon {
