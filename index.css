@@ -128,6 +128,7 @@
 
 .liss {
     font-weight: lighter;
+
     
 }
 
@@ -156,14 +157,14 @@
 .vv {
     list-style: none;
     font-weight: lighter;
-    width: 350px;
-    margin-right: 40px;
 }
 
-.maa {
-    margin: 20px;
+.round {
     position: relative;
+    max-width: 100%;
 }
+
+
 
 
 .per {
@@ -183,13 +184,17 @@
 }
 
 .butt {
-    border-radius: 20px;
+    border-radius: 10px;
     background: #e67e22;
     font-weight: bold;
     color: white;
     box-shadow: none;
-    margin-right: 15px;
     border: none;
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
 }
 
 .a1 {
@@ -308,26 +313,21 @@
 
 .kkk {
     color: #e67e22;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 .tap {
     border-radius: 5%;
     background: #b79b9b;
-    margin: 9px;
     padding: 5px;
-    
 }
 
 
 
-.cam {
+
+.came {
     border-radius: 5%;
     background: #ffff;
     border: 2px solid #fae5d3;
-    margin: 3px;
-    padding: 18px;
 }
 
 .money {
@@ -345,6 +345,26 @@
 .tah {
     color: hsl(209, 28%, 39%);
     font-size: small;
+}
+
+.complete {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.comm {
+    border: 1px solid #fdf2e9;
+    width: 40%;
+}
+
+.ffff {
+    width: 100%;
+}
+
+.cumm {
+    background: #fae5d3;
+    position: relative;
+    width: 40%;
 }
 
 
@@ -384,7 +404,7 @@
 .ribbon {
     position: absolute;
     top: 0;
-    left: 282px;
+    right: 0;
     width: 150px;
     height: 145px;
     display: flex;
@@ -412,10 +432,6 @@
 
 }
 
-.aye {
-    margin-left: 150px;
-    
-}
 
 .hhh {
     max-width: 100%;
