@@ -127,7 +127,8 @@
 }
 
 .liss {
-    font-weight: lighter;
+    margin-left: 10px;
+    font-weight: bold;
 
     
 }
@@ -159,12 +160,12 @@
     font-weight: lighter;
 }
 
-.round {
+/* .round {
     position: relative;
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
+} */
 
 
 
@@ -356,8 +357,10 @@
 
 .comm {
     border: 1px solid #fdf2e9;
-    width: 40%;
+    width: 100%;
 }
+
+
 
 .ffff {
     width: 100%;
@@ -366,7 +369,7 @@
 .cumm {
     background: #fae5d3;
     position: relative;
-    width: 40%;
+    width: 100%;
 }
 
 
@@ -436,8 +439,7 @@
 
 
 .hhh {
-    max-width: 100%;
-    display: inline-flex;
+    
 }
 
 .ending {
@@ -500,10 +502,9 @@
 
 
 .mmm {
-    font-size: 15px;
+    font-size: 12px;
     color: hsl(209, 28%, 39%);
-    width: 300px;
-    flex-wrap: wrap;
+
 }
 
 
