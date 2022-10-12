@@ -488,7 +488,8 @@ width: 30px;}
 
 
 .copy {
-    font-size: 9px;
+    font-size: 13px;
+    font-weight: bold;
     color: hsl(209, 28%, 39%);
 }
 
